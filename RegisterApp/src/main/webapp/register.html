@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration App</title>
+  </head>
+  <body bgcolor="yellow">
+     <h1>Registration Form</h1>
+     <form method="get" action="RegisterServlet">
+     <label>User Name:</label>
+     <input type="text" name="username" required/>
+     <br><br>
+ 
+     <label>Password:</label>
+     <input type="password" name="password" required/>
+     <br> <br>
+ 
+     <label>Mobile:</label>
+     <input type="number" name="mobile" required/>
+     <br> <br>
+     
+     <label> User Email:</label>
+     <input type="email" name="email" required/>
+     <br><br>
+ 
+     <label>Gender:</label>
+     <input type="radio" name="gender" value="male"/>male
+     <input type="radio" name="gender" value="female"/>female
+     <br><br>
+
+     <label>DOB:</label>
+     <input type="date" name="DOB" required/>
+     <br><br>
+
+     <label>Qualification:</label>
+     <input type="checkbox" name="Qualification" value="B.sc"/>B.sc
+     <input type="checkbox" name="Qualification" value="B.tech"/>B.tech
+     <input type="checkbox" name="Qualification" value="MBA"/>MBA
+     <input type="checkbox" name="Qualification" value="MCA"/>MCA
+     <input type="checkbox" name="Qualification" value="M.tech"/>M.tech
+     <br><br>
+
+     <label>Country:</label>
+     <select name="Country">
+     <option>UK</option>
+     <option>USA</option>
+     <option>India</option>
+     <option>Africa</option>
+     </select>
+     <br><br>
+     
+     <label>Languages:</label>
+     <select name="languages">
+     <option>Telugu</option>
+     <option>Hindi</option>
+     <option>kannada</option>
+     <option>English</option>
+     </select>
+     <br><br>
+
+     <label>Comments:</label>
+     <textarea name="Comments" rows="4" cols="25">
+     </textarea>
+     <br><br>
+
+     <input type="submit" value="Register"/>
+   </form>
+  </body>
+</html>

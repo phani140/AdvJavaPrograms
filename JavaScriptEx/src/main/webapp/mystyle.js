@@ -1,0 +1,13 @@
+let massRatan=60;
+let heightRatan=5.7;
+let massAnu=50;
+let heightAnu=5.3;
+let BMIRatan;
+let BMIAnu;
+var RatanHigherBMI=true;
+BMIRatan=massRatan/(heightRatan*heightRatan);
+BMIAnu=massAnu/(heightAnu*heightAnu);
+console.log("value of BMIRatan "+BMIRatan);
+console.log("value of BMIAnu "+BMIAnu);
+document.write("value of BMIRatan "+BMIRatan);
+document.write("value of BMIAnu "+BMIAnu);

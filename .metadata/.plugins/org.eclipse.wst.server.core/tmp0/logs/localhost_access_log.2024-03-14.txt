@@ -1,0 +1,7 @@
+127.0.0.1 - - [14/Mar/2024:21:09:38 +0530] "GET / HTTP/1.1" 404 751
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:21:09:41 +0530] "GET /ProductAppProject/ HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:21:09:42 +0530] "GET /ProductAppProject/formValidation.js HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:21:09:42 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:21:09:50 +0530] "GET /ProductAppProject/productlist.jsp HTTP/1.1" 200 7196040
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:21:09:58 +0530] "GET /favicon.ico HTTP/1.1" 404 762
+0:0:0:0:0:0:0:1 - - [14/Mar/2024:21:10:07 +0530] "GET /ProductAppProject/EditProductServlet?proId=111 HTTP/1.1" 200 334370

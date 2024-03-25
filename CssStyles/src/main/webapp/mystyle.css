@@ -1,0 +1,34 @@
+h1
+{
+color:pink;
+text-align:center;
+text-decoration:underline;
+font-size:25px;
+font-family:'times new roman';
+font-style:italic
+}
+.mydesign
+{
+color:red;
+text-align:right;
+text-decoration:linethrough;
+font-size:45px;
+font-family:'times new roman';
+font-style:italic	
+}
+#yourdesign
+{
+color:red;
+text-align:left;
+font-size:89px;
+font-family:'times new roman';
+font-style:italic
+margin-top 25px;
+margin-bottom :25px;
+border:  5px dotted;
+padding-top:25px;
+padding-bottom: 30px;
+padding-left: 25px;
+padding-right: 25px;
+	
+}
